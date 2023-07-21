@@ -210,7 +210,8 @@ public class JwtTokenProvider {
 3. 유효하면 인증 정보를 가져와서 SecuirtyContext에 저장한다.
 4. 다음 필터로 간다
 > 여기서 필터?
-![ECEDB5BD-FF83-4CA5-86AD-C3701ACF6C03.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fss%2Fb037t69n1nl7xcdcxpg6nykw0000gp%2FT%2Fnet.shinyfrog.bear%2FBearTemp.E3z0Zf%2FECEDB5BD-FF83-4CA5-86AD-C3701ACF6C03.png)
+![ECEDB5BD-FF83-4CA5-86AD-C3701ACF6C03](https://github.com/BrownLEE99/tossaway/assets/137032025/c164899e-d911-4888-bd0f-3385358dc27f)
+
 * 필터는 클라이언트의 요청을 가로채서 처리하고, 보안과 관련된 작업을 수행하며, 응답을 가공하여 클라이언트에게 반환하는 역할
 * 우리가 만든 필터는 사용자의 토큰이 유효한지 확인하는 필터
 ---
@@ -423,16 +424,14 @@ public class MemberLoginRequestDto {
 디비에 테이블 만들어서 member_A,1234를 넣어두고
 
 POSTMAN에서 테스트 해보자
+![CA11807B-1BBF-4EBF-9E61-B709B1D866F2](https://github.com/BrownLEE99/tossaway/assets/137032025/17e03048-2127-4f16-9ccd-8a890252e6fc)
 
-![CA11807B-1BBF-4EBF-9E61-B709B1D866F2.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fss%2Fb037t69n1nl7xcdcxpg6nykw0000gp%2FT%2Fnet.shinyfrog.bear%2FBearTemp.O0eDqR%2FCA11807B-1BBF-4EBF-9E61-B709B1D866F2.png)
 
 잘 나오는 것을 확인할 수 있다.
 
 ---
 이번에는 받은 accessToken을 가지고 테스트해보자
-
-![1AFEB9E2-0C57-4425-9C63-412CC6C6360E.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fss%2Fb037t69n1nl7xcdcxpg6nykw0000gp%2FT%2Fnet.shinyfrog.bear%2FBearTemp.eTfsdF%2F1AFEB9E2-0C57-4425-9C63-412CC6C6360E.png)
-
+![1AFEB9E2-0C57-4425-9C63-412CC6C6360E](https://github.com/BrownLEE99/tossaway/assets/137032025/d7d2a157-46f6-4776-9ff0-84ac436eb460)
 
 
 참조 :
